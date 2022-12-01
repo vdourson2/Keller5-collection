@@ -1,1 +1,27 @@
-/*# sourceMappingURL=style.css.map */
+div {
+  margin: auto;
+  width: 85vw;
+}
+div img {
+  width: 85vw;
+  display: block;
+}
+div div {
+  width: 75vw;
+  padding: 5vw;
+  border: 1px solid black;
+}
+div div ul {
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-end;
+}
+div div ul li {
+  border: 1px solid black;
+  padding: 2vw;
+  margin-left: 0%;
+}
+
+a img {
+  width: 30px;
+}/*# sourceMappingURL=style.css.map */
