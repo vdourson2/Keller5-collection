@@ -2,8 +2,7 @@ const collection = [
     {
         name : "Ashes in the Snow",
         group : "Mono",
-        album : "Hymn to the Immortal Wind",
-        releaseYear : 2009,
+        album : "Hymn to the Immortal Wind - 2009",
         style : [
             "neoclassical",
             "post rock",
@@ -14,8 +13,7 @@ const collection = [
     {
         name : "Lonely Day",
         group : "System Of A down",
-        album : "Hypnotize",
-        releaseYear: 2005,
+        album : "Hypnotize - 2005",
         style : [
             "heavy metal",
             "hard rock",
@@ -26,8 +24,7 @@ const collection = [
     {
         name : "Quand je marche",
         group : "Ben Mazué",
-        album : "Paradis",
-        releaseYear: 2020,
+        album : "Paradis - 2020",
         style : [
             "Chanson française",
         ],
@@ -37,8 +34,7 @@ const collection = [
     {
         name : "You Don't Know",
         group : "Milow",
-        album : "Milow",
-        releaseYear: 2009,
+        album : "Milow - 2009",
         style : [
             "Acoustic",
             "Pop rock",
@@ -49,8 +45,7 @@ const collection = [
     {
         name : "Verona",
         group : "Muse",
-        album : "Will of the people",
-        releaseYear: 2022,
+        album : "Will of the people - 2022",
         style : [
             "Alternative Rock",
         ],
@@ -60,8 +55,7 @@ const collection = [
     {
         name : "A Letter To Elise",
         group : "The Cure",
-        album : "Wish",
-        releaseYear: 1992,
+        album : "Wish - 1992",
         style : [
            "Alternative Rock",
            "New Wave",
@@ -73,46 +67,42 @@ const collection = [
     {
         name : "Guinea Pig",
         group : "Girls in Hawai",
-        album : "Nocturne",
-        releaseYear: 2017,
+        album : "Nocturne - 2017",
         style : [
             "Ballad",
         ],
         picture : "./assets/girls_in_hawai.jpg",
-        lien :"",
+        lien :"https://open.spotify.com/track/3SfAHUPkjCLTwi23IbyLXA",
     },
     {
         name : "Mirror",
         group : "Loic Nottet",
-        album : "Selfocracy",
-        releaseYear: 2017,
+        album : "Selfocracy - 2017",
         style : [
             "Indie Pop",
         ],
         picture : "./assets/nottet.jpg",
-        lien :"",
+        lien :"https://open.spotify.com/track/60d7tazuuyrx3FiU30eRja",
     },
     {
         name : "Easy Come Easy Go",
         group : "Alice On The Roof",
-        album : "Higher",
-        releaseYear: 2016,
+        album : "Higher - 2016",
         style : [
             "Synth-pop",
         ],
         picture : "./assets/alice.jpg",
-        lien :"",
+        lien :"https://open.spotify.com/album/4PDJk3Rk0ESXWGsHsAs5zm",
     },
     {
         name : "Conjouring",
         group : "IAMDDB",
-        album : "Hoodrich Vol.3",
-        releaseYear: 2017,
+        album : "Hoodrich Vol.3 - 2017",
         style : [
             "Trap",
         ],
         picture : "./assets/iamddb.jpg",
-        lien :"",
+        lien :"https://open.spotify.com/track/2STP1Ow0iAeiSglnQmhWnP",
     },
 ];
 
@@ -162,11 +152,11 @@ for (let i=0;i<collection.length;i++){
     album.appendChild(textAlbum);
     divIntérieure.appendChild(album);
    
-     //création de la deuxième balise p, de son texte, et ajout des 2 noeuds à l'arbre
-    let annee = document.createElement("p");
-    let textAnnee = document.createTextNode(collection[i].releaseYear);
-    annee.appendChild(textAnnee);
-    divIntérieure.appendChild(annee);
+    //création de la deuxième balise p, de son texte, et ajout des 2 noeuds à l'arbre
+    //let annee = document.createElement("p");
+    //let textAnnee = document.createTextNode(collection[i].releaseYear);
+    //annee.appendChild(textAnnee);
+    //divIntérieure.appendChild(annee);
     
      //création de la balise a et de ses attributs,
      //et ajout des 2 noeuds à l'arbre
