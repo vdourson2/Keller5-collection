@@ -1,58 +1,111 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Satisfy&display=swap');
 
 p, ul, li, div, h2, h3{
     padding:0em;
     margin:0em
 }
-
+header{
+    margin:5vw 7vw 5vw 7vw;
+    padding :5px;
+    background-color: aliceblue;
+    display:flex;
+    border-radius: 5px;
+    align-items: center;
+    img{
+        margin:15px;
+        display:block;
+        width : 140px;
+        border-radius : 70px;
+        object-fit: cover;
+    }
+    p{
+        margin : 10px;
+        font-size:1.5em;
+        font-family: satisfy, cursive;
+    }
+}
 body{
     background-color: rgb(221, 224, 224);
 }
-
 div{
-    margin:auto;
-    margin-bottom: 5vw;
-    width:85vw;
+    margin:0vw 7vw 10vw 7vw;
+    width:84vw;
     background-color: aliceblue;
-    box-shadow: 1.5vw 1.5vw 2vw rgb(186, 187, 189);
+    box-shadow: 1.5vw 1.5vw 1vw rgb(186, 187, 189);
     img{
-        width:85vw;
+        width:100%;
         display: block;
     }
     div{
-        width : 75vw;
+        box-sizing: border-box;
+        width:100%;
+        margin:0vw;
         padding:5vw;
         font-family: Roboto, Arial, sans-serif;
-        //display:flex;
-        //flex-direction:column;
-        //justify-content : space-between;
-        
-        //border:1px solid black;
+        box-shadow:none;
         ul{
-            //border:1px solid black;
-            
             list-style-type: none;
             display : flex;
             flex-wrap:wrap;
-            //justify-content : space-around;
             li{
-                //border:1px solid black;
                 background-color: rgb(48, 134, 233);
                 color:white;
                 font-weight: bolder;
                 border-radius: 0.5em;
                 padding:2vw;
                 margin:1vw 5vw 1vw 0vw;
-
             }
         }
         h2, h3, p{
             margin:3vw 0vw;
         }
+        h2 {
+            font-size: 2em;
+        }
+        h3 {
+            color: grey;
+            font-size : 1.5em;
+        }
     }   
 }
-
 a img{
     width : 30px;
+}
+@media screen and (min-width:1024px) {
+    header{
+        margin:5vw 3vw 5vw 3vw;
+        p{
+            font-size: 2em;
+        }
+    }
+    main {
+        display : flex;
+        flex-wrap: wrap;
+        div{
+            margin:0vw 0vw 3vw 3vw;
+            width: 21vw;
+            div{
+                margin:0vw;
+                padding:1vw 2vw;
+                ul{
+                    li{
+                        border-radius: 0.3em;
+                        padding:0.5vw;
+                        margin:1vw 1vw 0vw 0vw;
+                    }
+                }
+                h2, h3, p{
+                    margin:1vw 0vw;
+                }
+                h2 {
+                    font-size: 1.8em;
+                }
+                h3 {
+                    color: grey;
+                    font-size : 1.5em;
+                }
+            }   
+        }
+    }
 }
 

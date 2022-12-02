@@ -49,7 +49,7 @@ const collection = [
         style : [
             "Alternative Rock",
         ],
-        picture : "./assets/muse.jpg",
+        picture : "./assets/muse_carre.jpg",
         lien :"https://open.spotify.com/track/35E8of4u0B5PI8o4Hy0tWq",
     },
     {
@@ -61,7 +61,7 @@ const collection = [
            "New Wave",
            "Pop Rock",
         ],
-        picture : "./assets/cure.jpg",
+        picture : "./assets/cure_carre.jpg",
         lien : "https://open.spotify.com/track/4MvfmPViTS2nNe4GevK62r",
     },
     {
@@ -81,7 +81,7 @@ const collection = [
         style : [
             "Indie Pop",
         ],
-        picture : "./assets/nottet.jpg",
+        picture : "./assets/nottet_carre.jpg",
         lien :"https://open.spotify.com/track/60d7tazuuyrx3FiU30eRja",
     },
     {
@@ -91,7 +91,7 @@ const collection = [
         style : [
             "Synth-pop",
         ],
-        picture : "./assets/alice.jpg",
+        picture : "./assets/alice_carre.jpg",
         lien :"https://open.spotify.com/album/4PDJk3Rk0ESXWGsHsAs5zm",
     },
     {
