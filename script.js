@@ -177,3 +177,7 @@ fetch("collection.json")
             lienSpot.appendChild(spotify);
         }
     })
+        .catch((error) => {
+            console.log("Error!")
+        });
+    
